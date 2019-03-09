@@ -9,8 +9,9 @@ class AudioToPianoRollDataset(Dataset):
         self.device = device
 
         self.data = []
-        print('Loading %d group%s of %s at %s' % (len(groups), 's'[:len(groups) - 1], self.__class__.__name__, path))
+        # print('Loading %d group%s of %s at %s' % (len(groups), 's'[:len(groups) - 1], self.__class__.__name__, path))
 
 
-    def __getitem__(self, index):
+
+#    def __getitem__(self, index):
 
